@@ -1,0 +1,7 @@
+include README.rst
+include MANIFEST.in
+include requirements.txt
+recursive-include colab/dpaste/static *
+recursive-include colab *.html *.txt *.xml
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
